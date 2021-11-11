@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://NataliaStupka.github.io/goit-js-hw-09",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "dev": "parcel src/*.html --open",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
@@ -24,9 +24,9 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.9",
+    "notiflix": "^3.2.2"
   }
 }
-
-
-
-
